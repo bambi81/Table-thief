@@ -15,21 +15,26 @@ public class Countdowntime : MonoBehaviour
     public Text gameover;
     public GameObject img;
     public GameObject explainpanle;
+    public GameObject dialoguepanle;
     void Start()
     {
-        Time.timeScale = 0;
+        Time.timeScale = 1;
        
     }
      void Update()
     {
         Bar.fillAmount = seconds / maxtime;
     }
+    public void endconversation()
+    {
+        dialoguepanle.SetActive(false);
+        explainpanle.SetActive(true);
+    }
     public void start()
     {
         explainpanle.SetActive(false);
-        Time.timeScale = 1;
+        
         StartCoroutine(Counttime());
-
     }
     IEnumerator Counttime()
     {

@@ -56,16 +56,55 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\LeanTween\Framework\LeanTween.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\LogoCinematic.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralCameraShake.cs" />
+    <Compile Include="Assets\LeanTween\Framework\LTDescr.cs" />
     <Compile Include="Assets\Scrpit\Pause.cs" />
-    <Compile Include="Assets\Scrpit\TrunScrpit.cs" />
+    <Compile Include="Assets\LeanTween\Framework\LeanTweenExt.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Archived\TestingPunch.cs" />
+    <Compile Include="Assets\LeanTween\Framework\LTSeq.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\TestingUnitTests.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralUISpace.cs" />
+    <Compile Include="Assets\LeanTween\Framework\LeanAudio.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralSimpleUI.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplineEndless.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\PathBezier.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\PathSpline.cs" />
     <Compile Include="Assets\Scrpit\Countdowntime.cs" />
     <Compile Include="Assets\Scrpit\Playermovement.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralAdvancedTechniques.cs" />
+    <Compile Include="Assets\LeanTween\Framework\LeanSmooth.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralBasics2d.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplines.cs" />
     <Compile Include="Assets\Scrpit\Pause1.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralEventsListeners.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplineTrack.cs" />
     <Compile Include="Assets\Scrpit\PanelOpen.cs" />
+    <Compile Include="Assets\LeanTween\Framework\LeanTest.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\TestingZLegacy.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\PathSpline2d.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\TestingZLegacyExt.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplinePerformance.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\PathBezier2d.cs" />
     <Compile Include="Assets\Scrpit\Tracktarget.cs" />
-    <Compile Include="Assets\Scrpit\Fork.cs" />
-    <Compile Include="Assets\Scrpit\Player.cs" />
+    <Compile Include="Assets\LeanTween\Framework\LTDescrOptional.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralEasingTypes.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralSequencer.cs" />
     <Compile Include="Assets\Scrpit\Muisc.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Archived\OldGUIExamplesCS.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralBasic.cs" />
+    <Compile Include="Assets\Scrpit\Score.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Archived\TestingRigidbodyCS.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\Following.cs" />
+    <Compile Include="Assets\ES_MessageSystem.cs" />
+    <Compile Include="Assets\UsageCase.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\LeanTween\ReadMe.txt" />
+    <None Include="Assets\LeanTween\License.txt" />
+    <None Include="Assets\textfile.txt" />
+    <None Include="Assets\LeanTween\Examples\Archived\2dUnlitWithFade.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
